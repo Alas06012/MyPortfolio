@@ -1,0 +1,132 @@
+{
+  "common": {
+    "availableForWork": "Disponible para nuevos proyectos",
+    "viewProject": "Ver Proyecto",
+    "liveDemo": "Vista Previa",
+    "sourceCode": "Código Fuente",
+    "copyEmail": "Copiar Correo",
+    "emailCopied": "¡Correo Copiado!",
+    "downloadCv": "Descargar CV",
+    "contactMe": "Contactar",
+    "switchTheme": "Cambiar Tema",
+    "switchLanguage": "Cambiar Idioma",
+    "allRightsReserved": "Todos los derechos reservados."
+  },
+  "hero": {
+    "greeting": "Hola, soy Diego",
+    "role": "Ingeniero de Software & Diseñador Web",
+    "title": "Arquitectura de software escalable & artesanía digital.",
+    "description": "Especializado en el desarrollo de aplicaciones web de alto rendimiento con Next.js, TypeScript e ingeniería de UI moderna. Enfocado en rendimiento, accesibilidad y sistemas de diseño con precisión de píxel.",
+    "primaryCta": "Explorar Proyectos",
+    "secondaryCta": "Contáctame"
+  },
+  "profile": {
+    "tag": "Sobre Mí",
+    "name": "Diego Alas",
+    "role": "Ingeniero Full-Stack & Diseñador de Producto",
+    "location": "Remoto / A nivel global",
+    "status": "Construyendo productos digitales con arquitectura moderna",
+    "bio": "Apasionado por crear aplicaciones web resilientes, sistemas de diseño intuitivos y software full-stack robusto. Uniendo el rigor de la ingeniería de software con la excelencia estética y visual.",
+    "quote": "\"El código es artesanía; la arquitectura es claridad.\""
+  },
+  "featuredProject": {
+    "badge": "Proyecto Destacado",
+    "title": "Hogareño",
+    "tagline": "Plataforma Moderna de Gestión Inmobiliaria y Hogar",
+    "description": "Plataforma integral de gestión residencial que ofrece seguimiento de tickets de mantenimiento en tiempo real, facturación automatizada y comunicación fluida entre residentes con una UX sin fricción.",
+    "keyFeatures": [
+      "Ciclo de vida de tickets en tiempo real y alertas automatizadas",
+      "Portal para residentes con transacciones financieras seguras",
+      "Caché offline-first optimizada con tiempos de respuesta sub-100ms"
+    ],
+    "metrics": [
+      {
+        "label": "Rendimiento",
+        "value": "99/100"
+      },
+      {
+        "label": "Unidades Activas",
+        "value": "1,200+"
+      },
+      {
+        "label": "Satisfacción",
+        "value": "98%"
+      }
+    ],
+    "tags": ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Prisma"],
+    "liveUrl": "https://hogareno.app",
+    "githubUrl": "https://github.com/Alas06012/hogareno"
+  },
+  "techStack": {
+    "badge": "Stack & Herramientas",
+    "title": "Tecnologías & Especialidad",
+    "subtitle": "Tecnologías que utilizo para construir soluciones escalables y confiables",
+    "categories": [
+      {
+        "name": "Core & Frontend",
+        "skills": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "HTML5/CSS3"]
+      },
+      {
+        "name": "Backend & Cloud",
+        "skills": ["Node.js", "Express", "PostgreSQL", "Prisma ORM", "Supabase", "REST & GraphQL"]
+      },
+      {
+        "name": "DevOps & Herramientas",
+        "skills": ["Git & GitHub", "Docker", "Vercel", "Vitest/Jest", "Postman", "Figma"]
+      }
+    ]
+  },
+  "experience": {
+    "badge": "Trayectoria",
+    "title": "Experiencia & Impacto",
+    "subtitle": "Historial de desarrollo de soluciones de nivel empresarial y freelance",
+    "items": [
+      {
+        "role": "Senior Frontend Engineer & Designer",
+        "company": "Freelance & Consultoría",
+        "period": "2023 - Presente",
+        "description": "Arquitectura de aplicaciones web resilientes, sistemas de diseño Bento grid personalizados y micro-interacciones para startups y clientes globales."
+      },
+      {
+        "role": "Ingeniero de Software",
+        "company": "Tech Solutions Lab",
+        "period": "2021 - 2023",
+        "description": "Lideré la migración frontend a Next.js App Router, reduciendo el LCP en un 45% y estableciendo librerías de componentes con estándares estrictos de TypeScript."
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Colaboremos",
+    "title": "¿Tienes un proyecto en mente?",
+    "subtitle": "Siempre abierto a conversar sobre nuevos desafíos de arquitectura de software, sistemas de diseño u oportunidades de trabajo.",
+    "email": "diego.alas@example.com",
+    "scheduleCall": "Agendar una Llamada Rápida",
+    "socials": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/Alas06012",
+        "label": "github.com/Alas06012"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/diegoalas",
+        "label": "linkedin.com/in/diegoalas"
+      },
+      {
+        "name": "Twitter/X",
+        "url": "https://x.com/diegoalas",
+        "label": "@diegoalas"
+      }
+    ]
+  },
+  "notFound": {
+    "title": "404 - Página no encontrada",
+    "description": "La página que buscas no existe o ha sido movida.",
+    "backHome": "Volver al Portafolio"
+  },
+  "error": {
+    "title": "¡Ocurrió un error inesperado!",
+    "description": "Se produjo un problema al renderizar la aplicación.",
+    "retry": "Intentar de nuevo"
+  }
+}

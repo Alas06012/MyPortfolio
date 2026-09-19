@@ -1,0 +1,132 @@
+{
+  "common": {
+    "availableForWork": "Available for new projects",
+    "viewProject": "View Project",
+    "liveDemo": "Live Preview",
+    "sourceCode": "Source Code",
+    "copyEmail": "Copy Email",
+    "emailCopied": "Email Copied!",
+    "downloadCv": "Download CV",
+    "contactMe": "Get in Touch",
+    "switchTheme": "Toggle Theme",
+    "switchLanguage": "Switch Language",
+    "allRightsReserved": "All rights reserved."
+  },
+  "hero": {
+    "greeting": "Hi, I'm Diego",
+    "role": "Software Engineer & Web Designer",
+    "title": "Architecting clean, scalable systems & digital craft.",
+    "description": "Specialized in building high-performance web applications with Next.js, TypeScript, and modern UI engineering. Focused on performance, accessibility, and pixel-perfect design systems.",
+    "primaryCta": "Explore Projects",
+    "secondaryCta": "Contact Me"
+  },
+  "profile": {
+    "tag": "About Me",
+    "name": "Diego Alas",
+    "role": "Full-Stack Engineer & Product Designer",
+    "location": "Remote / Worldwide",
+    "status": "Building digital products with modern architecture",
+    "bio": "Passionate about building resilient web applications, intuitive design systems, and robust full-stack software. Bridging the gap between engineering rigor and aesthetic excellence.",
+    "quote": "\"Code is craft; architecture is clarity.\""
+  },
+  "featuredProject": {
+    "badge": "Featured Project",
+    "title": "Hogareño",
+    "tagline": "Modern Home & Property Management Platform",
+    "description": "An all-in-one residential management platform delivering real-time maintenance tracking, automated billing, and seamless resident communication with a frictionless UX.",
+    "keyFeatures": [
+      "Real-time maintenance ticket lifecycle & automated alerts",
+      "Integrated resident portal with secure financial transactions",
+      "Optimized offline-first caching and sub-100ms response times"
+    ],
+    "metrics": [
+      {
+        "label": "Performance",
+        "value": "99/100"
+      },
+      {
+        "label": "Active Units",
+        "value": "1,200+"
+      },
+      {
+        "label": "Satisfaction",
+        "value": "98%"
+      }
+    ],
+    "tags": ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Prisma"],
+    "liveUrl": "https://hogareno.app",
+    "githubUrl": "https://github.com/Alas06012/hogareno"
+  },
+  "techStack": {
+    "badge": "Stack & Tools",
+    "title": "Technologies & Craft",
+    "subtitle": "Technologies I leverage to deliver scalable, reliable solutions",
+    "categories": [
+      {
+        "name": "Core & Frontend",
+        "skills": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "HTML5/CSS3"]
+      },
+      {
+        "name": "Backend & Cloud",
+        "skills": ["Node.js", "Express", "PostgreSQL", "Prisma ORM", "Supabase", "REST & GraphQL"]
+      },
+      {
+        "name": "DevOps & Tools",
+        "skills": ["Git & GitHub", "Docker", "Vercel", "Vitest/Jest", "Postman", "Figma"]
+      }
+    ]
+  },
+  "experience": {
+    "badge": "Career Path",
+    "title": "Experience & Impact",
+    "subtitle": "Track record of delivering enterprise-grade and freelance solutions",
+    "items": [
+      {
+        "role": "Senior Frontend Engineer & Designer",
+        "company": "Freelance & Consulting",
+        "period": "2023 - Present",
+        "description": "Architecting resilient web applications, custom Bento grid design systems, and micro-interactions for global startups and clients."
+      },
+      {
+        "role": "Software Engineer",
+        "company": "Tech Solutions Lab",
+        "period": "2021 - 2023",
+        "description": "Led frontend migration to Next.js App Router, cutting LCP by 45% and establishing scalable component libraries with strict TypeScript standards."
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Let's Collaborate",
+    "title": "Have a project in mind?",
+    "subtitle": "I'm always open to discussing new software architecture challenges, design systems, or freelance opportunities.",
+    "email": "diego.alas@example.com",
+    "scheduleCall": "Schedule a Quick Call",
+    "socials": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/Alas06012",
+        "label": "github.com/Alas06012"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/diegoalas",
+        "label": "linkedin.com/in/diegoalas"
+      },
+      {
+        "name": "Twitter/X",
+        "url": "https://x.com/diegoalas",
+        "label": "@diegoalas"
+      }
+    ]
+  },
+  "notFound": {
+    "title": "404 - Page Not Found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "backHome": "Return to Portfolio"
+  },
+  "error": {
+    "title": "Something went wrong!",
+    "description": "An unexpected error occurred while rendering the application.",
+    "retry": "Try again"
+  }
+}
