@@ -60,8 +60,9 @@ To ensure a senior-level standard, the implementation must adhere to the followi
    - Never hardcode API keys, tokens, or credentials into the source code.
    - Use environment variables (.env.local) and ensure they are added to .gitignore.
 
-2. Clean Version Control (Conventional Commits):
-   - Use descriptive commit messages following the Conventional Commits specification (e.g., `feat: add bento grid layout`, `fix: resolve hydration mismatch`, `style: update theme variables`).
+2. Clean Version Control & Commit Ownership:
+   - CRITICAL RULE: The AI agent must NEVER execute `git commit` or `git push` commands under any circumstances. All commits are exclusively performed by the user after reviewing changes.
+   - When suggesting commits, the AI may only recommend descriptive commit messages following the Conventional Commits specification (e.g., `feat: add bento grid layout`, `fix: resolve hydration mismatch`, `style: update theme variables`), leaving execution to the user.
 
 3. Performance & Optimization:
    - Optimize all static assets and use Next.js native <Image /> components to prevent layout shifts and ensure fast loading speeds.

@@ -46,34 +46,28 @@ export function BentoGrid() {
         <HeroCard />
       </motion.div>
 
-      {/* 2. Profile Card: Bio & Craft (4 cols on desktop) */}
-      <motion.div
-        variants={itemVariants}
-        className="col-span-12 sm:col-span-6 lg:col-span-4"
-      >
+      {/* 2. Profile Card: Bio & Craft (4 cols on desktop, full width on tablets/mobile) */}
+      <motion.div variants={itemVariants} className="col-span-12 lg:col-span-4">
         <ProfileCard />
       </motion.div>
 
-      {/* 3. Featured Project: Hogareño (7 cols on desktop) */}
-      <motion.div variants={itemVariants} className="col-span-12 lg:col-span-7">
-        <ProjectCard />
-      </motion.div>
-
-      {/* 4. Tech Stack Card: Categorized badges (5 cols on desktop) */}
-      <motion.div
-        variants={itemVariants}
-        className="col-span-12 sm:col-span-6 lg:col-span-5"
-      >
+      {/* 3. Tech Stack Card: Full width interactive marquee (12 cols) */}
+      <motion.div variants={itemVariants} className="col-span-12">
         <TechStackCard />
       </motion.div>
 
-      {/* 5. Experience Card: Track Record (6 cols on desktop) */}
-      <motion.div variants={itemVariants} className="col-span-12 lg:col-span-6">
+      {/* 4. Featured Project: Hogareño (12 cols) */}
+      <motion.div variants={itemVariants} className="col-span-12">
+        <ProjectCard />
+      </motion.div>
+
+      {/* 5. Experience Card: Track Record (6 cols on tablet/desktop) */}
+      <motion.div variants={itemVariants} className="col-span-12 md:col-span-6 lg:col-span-6">
         <ExperienceCard />
       </motion.div>
 
-      {/* 6. Contact & Socials Card (6 cols on desktop) */}
-      <motion.div variants={itemVariants} className="col-span-12 lg:col-span-6">
+      {/* 6. Contact & Socials Card (6 cols on tablet/desktop) */}
+      <motion.div variants={itemVariants} className="col-span-12 md:col-span-6 lg:col-span-6">
         <ContactCard />
       </motion.div>
     </motion.div>

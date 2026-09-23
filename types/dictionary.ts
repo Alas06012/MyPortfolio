@@ -13,11 +13,16 @@ export interface Dictionary {
     switchTheme: string;
     switchLanguage: string;
     allRightsReserved: string;
+    previousProject: string;
+    nextProject: string;
+    playStore: string;
+    visitWebsite: string;
   };
   hero: {
     greeting: string;
     role: string;
     title: string;
+    titles: string[];
     description: string;
     primaryCta: string;
     secondaryCta: string;
@@ -31,7 +36,28 @@ export interface Dictionary {
     bio: string;
     quote: string;
   };
-  featuredProject: {
+  featuredProjects: {
+    sectionBadge: string;
+    items: {
+      id: string;
+      badge: string;
+      title: string;
+      tagline: string;
+      description: string;
+      keyFeatures: string[];
+      metrics: {
+        label: string;
+        value: string;
+      }[];
+      tags: string[];
+      liveUrl?: string;
+      liveUrlLabel?: string;
+      playStoreUrl?: string;
+      githubUrl?: string;
+      statusBadge?: string;
+    }[];
+  };
+  featuredProject?: {
     badge: string;
     title: string;
     tagline: string;
@@ -63,7 +89,14 @@ export interface Dictionary {
       company: string;
       period: string;
       description: string;
+      highlights?: string[];
     }[];
+    education?: {
+      badge: string;
+      degree: string;
+      institution: string;
+      period: string;
+    };
   };
   contact: {
     badge: string;

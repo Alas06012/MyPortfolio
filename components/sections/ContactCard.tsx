@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { Mail, Check, Copy, Send, ExternalLink, MessageSquare } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
+import { SpotlightCard } from "@/components/ui/SpotlightCard";
 
 export function ContactCard() {
   const { dictionary } = useLanguage();
@@ -20,10 +21,7 @@ export function ContactCard() {
   };
 
   return (
-    <div
-      id="contact-section"
-      className="bento-card p-6 sm:p-7 flex flex-col justify-between relative overflow-hidden group"
-    >
+    <SpotlightCard id="contact-section" className="p-6 sm:p-7">
       <div>
         {/* Header */}
         <div className="flex items-center justify-between mb-4">
@@ -105,6 +103,6 @@ export function ContactCard() {
         <span>Diego Alas</span>
         <span>{dictionary.common.allRightsReserved}</span>
       </div>
-    </div>
+    </SpotlightCard>
   );
 }

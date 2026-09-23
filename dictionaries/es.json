@@ -4,58 +4,131 @@
     "viewProject": "Ver Proyecto",
     "liveDemo": "Vista Previa",
     "sourceCode": "Código Fuente",
-    "copyEmail": "Copiar Correo",
+    "copyEmail": "",
     "emailCopied": "¡Correo Copiado!",
     "downloadCv": "Descargar CV",
     "contactMe": "Contactar",
     "switchTheme": "Cambiar Tema",
     "switchLanguage": "Cambiar Idioma",
-    "allRightsReserved": "Todos los derechos reservados."
+    "allRightsReserved": "Todos los derechos reservados.",
+    "previousProject": "Proyecto anterior",
+    "nextProject": "Siguiente proyecto",
+    "playStore": "Google Play",
+    "visitWebsite": "Visitar Sitio Web"
   },
   "hero": {
-    "greeting": "Hola, soy Diego",
-    "role": "Ingeniero de Software & Diseñador Web",
-    "title": "Arquitectura de software escalable & artesanía digital.",
-    "description": "Especializado en el desarrollo de aplicaciones web de alto rendimiento con Next.js, TypeScript e ingeniería de UI moderna. Enfocado en rendimiento, accesibilidad y sistemas de diseño con precisión de píxel.",
+    "greeting": "Hola, soy Diego!",
+    "role": "Ingeniero de Software & Analista de Datos",
+    "title": "Arquitectura de software escalable",
+    "titles": [
+      "Arquitectura de software escalable",
+      "Ingeniería y análisis de datos",
+      "Ingeniería de interfaces modernas",
+      "Optimización de sistemas de alto rendimiento",
+      "Desarrollo full-stack integral",
+      "Modelado y gestión de bases de datos",
+      "Resolución lógica de problemas complejos",
+      "Código limpio y mantenible"
+    ],
+    "description": "Especializado en el desarrollo de aplicaciones web de alto rendimiento con Next.js, TypeScript, ingeniería de datos y arquitectura de software. Enfocado en rendimiento, atención al detalle y sistemas escalables.",
     "primaryCta": "Explorar Proyectos",
     "secondaryCta": "Contáctame"
   },
   "profile": {
     "tag": "Sobre Mí",
     "name": "Diego Alas",
-    "role": "Ingeniero Full-Stack & Diseñador de Producto",
-    "location": "Remoto / A nivel global",
+    "role": "Ingeniero de Software & Analista de Datos",
+    "location": "Remoto",
     "status": "Construyendo productos digitales con arquitectura moderna",
-    "bio": "Apasionado por crear aplicaciones web resilientes, sistemas de diseño intuitivos y software full-stack robusto. Uniendo el rigor de la ingeniería de software con la excelencia estética y visual.",
+    "bio": "Ingeniero de software y analista de datos apasionado por la tecnología, arquitectura de bases de datos y desarrollo web moderno. Enfocado en construir soluciones robustas, eficientes y orientadas a resultados.",
     "quote": "\"El código es artesanía; la arquitectura es claridad.\""
   },
   "featuredProject": {
-    "badge": "Proyecto Destacado",
+    "badge": "Hogareño",
     "title": "Hogareño",
-    "tagline": "Plataforma Moderna de Gestión Inmobiliaria y Hogar",
-    "description": "Plataforma integral de gestión residencial que ofrece seguimiento de tickets de mantenimiento en tiempo real, facturación automatizada y comunicación fluida entre residentes con una UX sin fricción.",
+    "tagline": "App de Servicios para el Hogar en El Salvador",
+    "description": "Marketplace de servicios para el hogar en El Salvador que conecta a profesionales verificados (pintores, albañiles, fontaneros, electricistas, remodelación, etc.) con propietarios de viviendas que necesitan realizar trabajos de construcción o renovación.",
     "keyFeatures": [
-      "Ciclo de vida de tickets en tiempo real y alertas automatizadas",
-      "Portal para residentes con transacciones financieras seguras",
-      "Caché offline-first optimizada con tiempos de respuesta sub-100ms"
+      "Profesionales verificados, calificaciones y reseñas reales",
+      "Cotización directa, agendamiento seguro y comunicación centralizada",
+      "Experiencia multi-plataforma optimizada con app móvil en Google Play y portal web"
     ],
     "metrics": [
       {
-        "label": "Rendimiento",
-        "value": "99/100"
+        "label": "Profesionales",
+        "value": "100% Verificados"
       },
       {
-        "label": "Unidades Activas",
-        "value": "1,200+"
+        "label": "Cobertura",
+        "value": "Nacional (SV)"
       },
       {
-        "label": "Satisfacción",
-        "value": "98%"
+        "label": "Plataforma",
+        "value": "Web & Android"
       }
     ],
-    "tags": ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Prisma"],
-    "liveUrl": "https://hogareno.app",
+    "tags": ["Next.js", "React Native", "TypeScript", "Tailwind CSS", "Supabase", "PostgreSQL"],
+    "liveUrl": "https://xn--hogareo-9za.app",
     "githubUrl": "https://github.com/Alas06012/hogareno"
+  },
+  "featuredProjects": {
+    "sectionBadge": "Proyecto Destacado",
+    "items": [
+      {
+        "id": "hogareno",
+        "badge": "Hogareño",
+        "title": "Hogareño",
+        "tagline": "Marketplace de Servicios para el Hogar en El Salvador",
+        "description": "Marketplace de servicios para el hogar en El Salvador que conecta a profesionales verificados (pintores, albañiles, fontaneros, electricistas, remodelación, etc.) con propietarios de viviendas que necesitan realizar trabajos de construcción o renovación.",
+        "keyFeatures": [
+          "Profesionales verificados con antecedentes, calificaciones y reseñas reales",
+          "Cotización directa, agendamiento seguro y comunicación centralizada",
+          "Experiencia multi-plataforma optimizada con app móvil en Google Play y portal web"
+        ],
+        "metrics": [
+          {
+            "label": "Cobertura",
+            "value": "Nacional (SV)"
+          },
+          {
+            "label": "Plataforma",
+            "value": "Web & Android"
+          }
+        ],
+        "tags": [""],
+        "liveUrl": "https://xn--hogareo-9za.app",
+        "liveUrlLabel": "hogareño.app",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.hogareno.app&hl=es_SV"
+      },
+      {
+        "id": "coming-soon",
+        "badge": "Próximamente",
+        "title": "Próximo Proyecto",
+        "tagline": "Plataforma SaaS & Arquitectura Cloud en Construcción",
+        "description": "Actualmente diseñando y desarrollando una nueva solución integral enfocada en alto rendimiento, procesamiento de datos en tiempo real y arquitectura moderna. Caso de estudio y demo pública disponibles próximamente.",
+        "keyFeatures": [
+          "Arquitectura de microservicios y procesamiento distribuido de eventos",
+          "Pipelines analíticos automatizados con observabilidad de punta a punta",
+          "Interfaz ultra-reactiva construida con estándares modernos de ingeniería"
+        ],
+        "metrics": [
+          {
+            "label": "Estado",
+            "value": "En Construcción"
+          },
+          {
+            "label": "Arquitectura",
+            "value": "Cloud Native"
+          },
+          {
+            "label": "Lanzamiento",
+            "value": "Q4 2026"
+          }
+        ],
+        "tags": ["Next.js", "Python", "PostgreSQL", "Docker", "AWS / Cloud"],
+        "statusBadge": "En Desarrollo Activo"
+      }
+    ]
   },
   "techStack": {
     "badge": "Stack & Herramientas",
@@ -64,42 +137,70 @@
     "categories": [
       {
         "name": "Core & Frontend",
-        "skills": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "HTML5/CSS3"]
+        "skills": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "HTML5/CSS3", "SEO Web"]
       },
       {
         "name": "Backend & Cloud",
-        "skills": ["Node.js", "Express", "PostgreSQL", "Prisma ORM", "Supabase", "REST & GraphQL"]
+        "skills": ["Python / Flask", "Node.js", "Supabase", "SQL Server", "PostgreSQL", "MySQL", "MongoDB", "Prisma ORM", "REST APIs"]
+      },
+      {
+        "name": "Data & Analytics",
+        "skills": ["Power BI", "Amazon Redshift", "Pandas", "Splunk", "ETL (SSIS / Pentaho)", "SSAS Cubes", "Data Warehousing"]
       },
       {
         "name": "DevOps & Herramientas",
-        "skills": ["Git & GitHub", "Docker", "Vercel", "Vitest/Jest", "Postman", "Figma"]
+        "skills": ["Git & GitHub", "Docker", "Vercel", "Linux", "Postman", "OpenAI API"]
       }
     ]
   },
   "experience": {
     "badge": "Trayectoria",
-    "title": "Experiencia & Impacto",
-    "subtitle": "Historial de desarrollo de soluciones de nivel empresarial y freelance",
+    "title": "Experiencia Laboral",
+    "subtitle": "Historial profesional en análisis de datos, ingeniería de software y sistemas empresariales",
     "items": [
       {
-        "role": "Senior Frontend Engineer & Designer",
-        "company": "Freelance & Consultoría",
-        "period": "2023 - Presente",
-        "description": "Arquitectura de aplicaciones web resilientes, sistemas de diseño Bento grid personalizados y micro-interacciones para startups y clientes globales."
+        "role": "Data Analyst",
+        "company": "Blackhawk Network · Remoto",
+        "period": "Jun. 2026 - Actualidad",
+        "description": "Análisis y correlación de eventos operativos en sistemas distribuidos con Splunk. Extracción, transformación y modelado de datos a gran escala utilizando Amazon Redshift, MySQL y Python (Pandas), con tableros ejecutivos en Power BI."
       },
       {
-        "role": "Ingeniero de Software",
-        "company": "Tech Solutions Lab",
-        "period": "2021 - 2023",
-        "description": "Lideré la migración frontend a Next.js App Router, reduciendo el LCP en un 45% y estableciendo librerías de componentes con estándares estrictos de TypeScript."
+        "role": "Systems Analyst",
+        "company": "Blackhawk Network · Remoto",
+        "period": "Ago. 2024 - Jun. 2026",
+        "description": "Monitoreo continuo y diagnóstico de incidentes de plataformas críticas mediante análisis de logs con Splunk y consultas optimizadas en bases de datos MySQL y Amazon Redshift, garantizando alta disponibilidad."
+      },
+      {
+        "role": "Software Developer & Data Analyst",
+        "company": "Datasphere / Technosal · Remoto",
+        "period": "Mar. 2023 - Ago. 2024",
+        "description": "Desarrollo full-stack y arquitectura de datos: pipelines ETL con SSIS y Python, Data Warehousing, cubos SSAS y Power BI. Modelado relacional y NoSQL con MySQL, SQL Server, PostgreSQL y MongoDB. Construcción de APIs REST en Flask, interfaces con React y aplicaciones web MVC."
+      },
+      {
+        "role": "Customer Service Agent & Technical Support",
+        "company": "Teleperformance · Remoto",
+        "period": "Nov. 2021 - Mar. 2022",
+        "description": "Soporte técnico integral y atención al cliente bilingüe para mercados de EE. UU. y Canadá, gestionando requerimientos e incidencias en plataformas internas de CRM."
+      },
+      {
+        "role": "Technical Support Specialist (Pasantía)",
+        "company": "ITCA · La Libertad, El Salvador",
+        "period": "Oct. 2018 - Feb. 2019",
+        "description": "Mantenimiento preventivo de centros de cómputo, despliegue de sistemas operativos (Windows/Linux) y gestión de respaldos y recuperación de discos."
       }
-    ]
+    ],
+    "education": {
+      "badge": "Educación",
+      "degree": "Ingeniería en Desarrollo de Software (Computer Software Engineering)",
+      "institution": "ITCA",
+      "period": "Ene. 2020 - Dic. 2024"
+    }
   },
   "contact": {
     "badge": "Colaboremos",
     "title": "¿Tienes un proyecto en mente?",
-    "subtitle": "Siempre abierto a conversar sobre nuevos desafíos de arquitectura de software, sistemas de diseño u oportunidades de trabajo.",
-    "email": "diego.alas@example.com",
+    "subtitle": "Siempre abierto a conversar sobre nuevos desafíos, análisis de datos o proyectos de desarrollo.",
+    "email": "diegoalas06@gmail.com",
     "scheduleCall": "Agendar una Llamada Rápida",
     "socials": [
       {
@@ -109,13 +210,8 @@
       },
       {
         "name": "LinkedIn",
-        "url": "https://linkedin.com/in/diegoalas",
-        "label": "linkedin.com/in/diegoalas"
-      },
-      {
-        "name": "Twitter/X",
-        "url": "https://x.com/diegoalas",
-        "label": "@diegoalas"
+        "url": "https://linkedin.com/in/alas-diego",
+        "label": "linkedin.com/in/alas-diego"
       }
     ]
   },

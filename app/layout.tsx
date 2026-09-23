@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { LanguageProvider } from "@/context/LanguageContext";
 import { ThemeProvider } from "@/context/ThemeContext";
+import { BackgroundGrid } from "@/components/ui/BackgroundGrid";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -39,7 +41,9 @@ export default function RootLayout({
   return (
     <html lang="es" suppressHydrationWarning className="dark">
       <head>
-        <script
+        <Script
+          id="theme-initializer"
+          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               try {
@@ -61,9 +65,12 @@ export default function RootLayout({
       <body className={`${inter.className} min-h-screen bg-background text-foreground antialiased selection:bg-primary/20 selection:text-primary`}>
         <ThemeProvider>
           <LanguageProvider>
-            <div className="relative min-h-screen flex flex-col justify-between overflow-x-hidden bg-grid-pattern">
-              {/* Top gradient glow */}
-              <div className="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-48 bg-gradient-to-b from-primary/10 via-transparent to-transparent pointer-events-none -z-10 blur-2xl" />
+            <div className="relative min-h-screen flex flex-col justify-between overflow-x-hidden">
+              {/* Fixed interactive background grid with cursor spotlight */}
+              <BackgroundGrid />
+
+              {/* Top ambient glow */}
+              <div className="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-56 bg-gradient-to-b from-primary/10 via-primary/5 to-transparent pointer-events-none -z-10 blur-3xl" />
               
               <div className="flex-1">{children}</div>
             </div>

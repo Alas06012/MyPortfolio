@@ -4,58 +4,131 @@
     "viewProject": "View Project",
     "liveDemo": "Live Preview",
     "sourceCode": "Source Code",
-    "copyEmail": "Copy Email",
+    "copyEmail": "",
     "emailCopied": "Email Copied!",
     "downloadCv": "Download CV",
     "contactMe": "Get in Touch",
     "switchTheme": "Toggle Theme",
     "switchLanguage": "Switch Language",
-    "allRightsReserved": "All rights reserved."
+    "allRightsReserved": "All rights reserved.",
+    "previousProject": "Previous project",
+    "nextProject": "Next project",
+    "playStore": "Google Play",
+    "visitWebsite": "Visit Website"
   },
   "hero": {
-    "greeting": "Hi, I'm Diego",
-    "role": "Software Engineer & Web Designer",
-    "title": "Architecting clean, scalable systems & digital craft.",
-    "description": "Specialized in building high-performance web applications with Next.js, TypeScript, and modern UI engineering. Focused on performance, accessibility, and pixel-perfect design systems.",
+    "greeting": "Hi, I'm Diego!",
+    "role": "Software Engineer & Data Analyst",
+    "title": "Scalable software architecture",
+    "titles": [
+      "Scalable software architecture",
+      "Data engineering & analysis",
+      "Modern interface engineering",
+      "High-performance system optimization",
+      "Comprehensive full-stack development",
+      "Database modeling & management",
+      "Complex problem-solving & logic",
+      "Clean & maintainable code"
+    ],
+    "description": "Specializing in building high-performance web applications with Next.js, TypeScript, data engineering, and software architecture. Focused on performance, detail-oriented design, and scalable systems.",
     "primaryCta": "Explore Projects",
     "secondaryCta": "Contact Me"
   },
   "profile": {
     "tag": "About Me",
     "name": "Diego Alas",
-    "role": "Full-Stack Engineer & Product Designer",
-    "location": "Remote / Worldwide",
+    "role": "Software Engineer & Data Analyst",
+    "location": "Remote",
     "status": "Building digital products with modern architecture",
-    "bio": "Passionate about building resilient web applications, intuitive design systems, and robust full-stack software. Bridging the gap between engineering rigor and aesthetic excellence.",
-    "quote": "\"Code is craft; architecture is clarity.\""
+    "bio": "Software engineer and data analyst passionate about technology, database architecture, and modern web development. Focused on building robust, efficient, and result-oriented solutions.",
+    "quote": "\"Code is craftsmanship; architecture is clarity.\""
   },
   "featuredProject": {
-    "badge": "Featured Project",
+    "badge": "Hogareño",
     "title": "Hogareño",
-    "tagline": "Modern Home & Property Management Platform",
-    "description": "An all-in-one residential management platform delivering real-time maintenance tracking, automated billing, and seamless resident communication with a frictionless UX.",
+    "tagline": "Home Services App in El Salvador",
+    "description": "Home services marketplace in El Salvador connecting verified professionals (painters, masons, plumbers, electricians, remodeling specialists, etc.) with homeowners needing construction or renovation work.",
     "keyFeatures": [
-      "Real-time maintenance ticket lifecycle & automated alerts",
-      "Integrated resident portal with secure financial transactions",
-      "Optimized offline-first caching and sub-100ms response times"
+      "Verified professionals with background verification, ratings, and genuine reviews",
+      "Direct quoting, secure scheduling, and centralized project messaging",
+      "Optimized multi-platform experience with Android app on Google Play and web portal"
     ],
     "metrics": [
       {
-        "label": "Performance",
-        "value": "99/100"
+        "label": "Professionals",
+        "value": "100% Verified"
       },
       {
-        "label": "Active Units",
-        "value": "1,200+"
+        "label": "Coverage",
+        "value": "National (SV)"
       },
       {
-        "label": "Satisfaction",
-        "value": "98%"
+        "label": "Platform",
+        "value": "Web & Android"
       }
     ],
-    "tags": ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Prisma"],
-    "liveUrl": "https://hogareno.app",
+    "tags": ["Next.js", "React Native", "TypeScript", "Tailwind CSS", "Supabase", "PostgreSQL"],
+    "liveUrl": "https://xn--hogareo-9za.app",
     "githubUrl": "https://github.com/Alas06012/hogareno"
+  },
+  "featuredProjects": {
+    "sectionBadge": "Featured Project",
+    "items": [
+      {
+        "id": "hogareno",
+        "badge": "Hogareño",
+        "title": "Hogareño",
+        "tagline": "Home Services Marketplace in El Salvador",
+        "description": "Home services marketplace in El Salvador connecting verified professionals (painters, masons, plumbers, electricians, remodeling specialists, etc.) with homeowners needing construction or renovation work.",
+        "keyFeatures": [
+          "Verified professionals, ratings, and genuine reviews",
+          "Direct quoting, secure scheduling, and centralized project messaging",
+          "Optimized multi-platform experience with Android app on Google Play and web portal"
+        ],
+        "metrics": [
+          {
+            "label": "Coverage",
+            "value": "National (SV)"
+          },
+          {
+            "label": "Platform",
+            "value": "Web & Android"
+          }
+        ],
+        "tags": [""],
+        "liveUrl": "https://xn--hogareo-9za.app",
+        "liveUrlLabel": "hogareño.app",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.hogareno.app&hl=es_SV"
+      },
+      {
+        "id": "coming-soon",
+        "badge": "Coming Soon",
+        "title": "Next Big Project",
+        "tagline": "Cloud Architecture & High-Performance SaaS in Progress",
+        "description": "Currently designing and engineering a brand new high-scale solution focused on real-time data processing, modern cloud architecture, and intuitive developer experience. Case study and interactive demo coming soon.",
+        "keyFeatures": [
+          "Distributed data architecture with real-time stream processing",
+          "Scalable microservices and automated analytical pipelines with full observability",
+          "Ultra-responsive UI engineered with modern web standards"
+        ],
+        "metrics": [
+          {
+            "label": "Status",
+            "value": "In Construction"
+          },
+          {
+            "label": "Architecture",
+            "value": "Cloud Native"
+          },
+          {
+            "label": "Launch",
+            "value": "Q4 2026"
+          }
+        ],
+        "tags": ["Next.js", "Python", "PostgreSQL", "Docker", "AWS / Cloud"],
+        "statusBadge": "Active Development"
+      }
+    ]
   },
   "techStack": {
     "badge": "Stack & Tools",
@@ -64,42 +137,70 @@
     "categories": [
       {
         "name": "Core & Frontend",
-        "skills": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "HTML5/CSS3"]
+        "skills": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "HTML5/CSS3", "Web SEO"]
       },
       {
         "name": "Backend & Cloud",
-        "skills": ["Node.js", "Express", "PostgreSQL", "Prisma ORM", "Supabase", "REST & GraphQL"]
+        "skills": ["Python / Flask", "Node.js", "Supabase", "SQL Server", "PostgreSQL", "MySQL", "MongoDB", "Prisma ORM", "REST APIs"]
+      },
+      {
+        "name": "Data & Analytics",
+        "skills": ["Power BI", "Amazon Redshift", "Pandas", "Splunk", "ETL (SSIS / Pentaho)", "SSAS Cubes", "Data Warehousing"]
       },
       {
         "name": "DevOps & Tools",
-        "skills": ["Git & GitHub", "Docker", "Vercel", "Vitest/Jest", "Postman", "Figma"]
+        "skills": ["Git & GitHub", "Docker", "Vercel", "Linux", "Postman", "OpenAI API"]
       }
     ]
   },
   "experience": {
     "badge": "Career Path",
-    "title": "Experience & Impact",
-    "subtitle": "Track record of delivering enterprise-grade and freelance solutions",
+    "title": "Work Experience",
+    "subtitle": "Professional track record in data analysis, software engineering, and enterprise systems",
     "items": [
       {
-        "role": "Senior Frontend Engineer & Designer",
-        "company": "Freelance & Consulting",
-        "period": "2023 - Present",
-        "description": "Architecting resilient web applications, custom Bento grid design systems, and micro-interactions for global startups and clients."
+        "role": "Data Analyst",
+        "company": "Blackhawk Network · Remote",
+        "period": "Jun. 2026 - Present",
+        "description": "Operational event monitoring and root-cause analysis across distributed systems with Splunk. Large-scale data extraction and modeling with Amazon Redshift, MySQL, and Python (Pandas), building executive KPI dashboards in Power BI."
       },
       {
-        "role": "Software Engineer",
-        "company": "Tech Solutions Lab",
-        "period": "2021 - 2023",
-        "description": "Led frontend migration to Next.js App Router, cutting LCP by 45% and establishing scalable component libraries with strict TypeScript standards."
+        "role": "Systems Analyst",
+        "company": "Blackhawk Network · Remote",
+        "period": "Aug. 2024 - Jun. 2026",
+        "description": "Continuous monitoring and incident diagnosis on high-availability platforms using Splunk and optimized queries in MySQL and Amazon Redshift, ensuring system resilience."
+      },
+      {
+        "role": "Software Developer & Data Analyst",
+        "company": "Datasphere / Technosal · Remote",
+        "period": "Mar. 2023 - Aug. 2024",
+        "description": "Full-stack engineering & data solutions: ETL pipelines with SSIS and Python, Data Warehousing, SSAS cubes, and Power BI. Relational and NoSQL modeling with MySQL, SQL Server, PostgreSQL, and MongoDB. Built Flask REST APIs, React interfaces, and MVC web applications."
+      },
+      {
+        "role": "Customer Service Agent & Technical Support",
+        "company": "Teleperformance · Remote",
+        "period": "Nov. 2021 - Mar. 2022",
+        "description": "Bilingual technical support and customer care for US & Canadian markets, handling tickets and incident management via enterprise CRM platforms."
+      },
+      {
+        "role": "Technical Support Specialist (Internship)",
+        "company": "ITCA · La Libertad, El Salvador",
+        "period": "Oct. 2018 - Feb. 2019",
+        "description": "Preventive computer lab hardware/software maintenance, operating system deployment (Windows/Linux), and disk image backup and data recovery management."
       }
-    ]
+    ],
+    "education": {
+      "badge": "Education",
+      "degree": "B.S. in Computer Software Engineering",
+      "institution": "ITCA",
+      "period": "Jan. 2020 - Dec. 2024"
+    }
   },
   "contact": {
     "badge": "Let's Collaborate",
     "title": "Have a project in mind?",
-    "subtitle": "I'm always open to discussing new software architecture challenges, design systems, or freelance opportunities.",
-    "email": "diego.alas@example.com",
+    "subtitle": "I'm always open to discussing new challenges, data analysis, or development projects.",
+    "email": "diegoalas06@gmail.com",
     "scheduleCall": "Schedule a Quick Call",
     "socials": [
       {
@@ -109,13 +210,8 @@
       },
       {
         "name": "LinkedIn",
-        "url": "https://linkedin.com/in/diegoalas",
-        "label": "linkedin.com/in/diegoalas"
-      },
-      {
-        "name": "Twitter/X",
-        "url": "https://x.com/diegoalas",
-        "label": "@diegoalas"
+        "url": "https://linkedin.com/in/alas-diego",
+        "label": "linkedin.com/in/alas-diego"
       }
     ]
   },
