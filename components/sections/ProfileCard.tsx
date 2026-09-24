@@ -43,6 +43,7 @@ export function ProfileCard() {
           <div className="flex-1 flex flex-col justify-center text-center @[420px]:text-left">
             <div className="mb-2">
               <h3 className="font-bold text-xl text-foreground tracking-tight flex items-center justify-center @[420px]:justify-start gap-2">
+                <span className="inline-block w-2 h-2 rounded-full bg-primary" />
                 {dictionary.profile.name}
                 <span className="inline-block w-2 h-2 rounded-full bg-primary" />
               </h3>
