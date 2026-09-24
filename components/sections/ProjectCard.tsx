@@ -184,11 +184,21 @@ export function ProjectCard() {
                       <div className="mb-3">
                         {!logoError ? (
                           <div className="relative h-10 sm:h-12 w-44 sm:w-52">
+                            {/* Dark Theme Logo (White typography) */}
                             <Image
                               src="/projects/hogareno/logo.webp"
                               alt="Hogareño"
                               fill
-                              className="object-contain object-left drop-shadow-sm brightness-110"
+                              className="hidden dark:block object-contain object-left drop-shadow-sm brightness-110"
+                              priority
+                              onError={() => setLogoError(true)}
+                            />
+                            {/* Light Theme Logo (Brand Purple typography for optimal contrast) */}
+                            <Image
+                              src="/projects/hogareno/logo-brand.png"
+                              alt="Hogareño"
+                              fill
+                              className="block dark:hidden object-contain object-left drop-shadow-xs"
                               priority
                               onError={() => setLogoError(true)}
                             />
